@@ -1,0 +1,139 @@
+
+header{
+  background: linear-gradient(to bottom, #56A56C, #204d2a);
+  padding: 20px;
+  border-radius: 0px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+header > h1{
+text-align: center;
+margin: 0;
+font-family: 'inicio',Helvetica, sans-serif;
+color: white;
+}
+header > p{
+  text-align: center;
+  color: white;
+}
+
+nav > a{
+
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+  padding: 5px 10px;
+
+}
+nav > a:hover{
+
+  text-decoration: underline;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+ padding: 0;
+background-color: #71D88C;
+}
+nav{
+text-align: left;
+padding: 10px;
+border-radius: 20px;
+width: 100%;
+box-sizing: border-box;
+
+}
+@font-face {
+  font-family: 'inicio';
+  src: url(fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+  font-family: 'cabeca';
+  src: url(fonts/idroid.otf);
+}
+
+main > section > h1{
+font-family: 'cabeca',Helvetica, sans-serif;
+color:#204d2a;
+ font-weight: normal;
+}
+
+main{
+font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+min-width: 400px;
+max-width: 800px;
+margin: auto;
+border-radius: 9px ;
+
+}
+main > section> h2{
+
+  font-family: 'cabeca',Helvetica, sans-serif;
+ color: #204d2a;
+}
+main> section> p> a{
+
+  color: #21422a;
+}
+main> section> p> a::after{
+  content: '🔗';
+  text-decoration: none;
+  font-weight: normal;
+  color: red;
+   }
+  
+   main > section#imagen-a {
+text-align: center;
+   }
+
+  main > section> div.video {
+    position: relative;
+  background-color: var(--cor4); /* Cor de fundo */
+  width: 100%; /* Garante que ocupe 100% da largura do main */
+  padding-bottom: 56.25%; /* Proporção de 16:9 para vídeos */
+  margin-bottom: 15px; /* Espaçamento entre o vídeo e outros elementos */
+  box-sizing: border-box; /* Inclui padding e margens nas dimensões */
+  }
+  
+  main > section > div.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* O iframe ocupa toda a largura do container */
+    height: 100%; /* O iframe ocupa toda a altura do container */
+    border: none;
+  }
+  main> section> ul{
+list-style-type: '\2714\0020\0020';
+columns: 2;
+    list-style-position: inside;
+    background-color: #99DEB1;
+    padding: 10px;
+  margin: 0px 10px;
+  
+  }
+  main> section> h3{
+    padding: 10px;
+  margin: 0px 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px ;
+    background-color: #56A56C;
+  }
+
+  main > section.paragrafo{
+    padding: 10px;
+  margin: 0px 10px;
+  border-bottom-right-radius: 10px ;
+  border-bottom-left-radius:10px ;
+    background-color: #99DEB1;
+  }
+footer{
+background-color: #21422a;
+text-align: center;
+padding: 1px;
+margin: 0px;
+
+}
