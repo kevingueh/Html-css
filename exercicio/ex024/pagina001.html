@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Execicio de Tabela</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+      width: 500px;
+      border-collapse: collapse;
+    }
+    caption{
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 8px;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    col.cnome{
+      background-color: azure;
+    }
+    tr:nth-child(2n){
+      background-color: antiquewhite;
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <table>
+    <colgroup>
+    <col class="cnome">
+    <col class="csexo">
+    <col class="cidade">
+    <col class="cprofissão">
+    
+    </colgroup>
+    <caption>
+      Cadastro
+    </caption>
+    <tbody>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+      <tr>
+        <td>Ana MAria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalista</td>
+      </tr>
+      <tr>
+        <td>Lucas Pereira</td>
+        <td>M</td>
+        <td>30</td>
+        <td>Engenheiro</td>
+      </tr>
+      <tr>
+        <td>Juliana Costa</td>
+        <td>F</td>
+        <td>28</td>
+        <td>Arquiteta</td>
+      </tr>
+      <tr>
+        <td>Rafael Santos</td>
+        <td>M</td>
+        <td>34</td>
+        <td>Professor</td>
+      </tr>
+      <tr>
+        <td>Camila Oliveira</td>
+        <td>F</td>
+        <td>22</td>
+        <td>Estudante</td>
+      </tr>
+      <tr>
+        <td>Bruno Martins</td>
+        <td>M</td>
+        <td>41</td>
+        <td>Advogado</td>
+      </tr>
+      <tr>
+        <td>Patrícia Lima</td>
+        <td>F</td>
+        <td>37</td>
+        <td>Psicóloga</td>
+      </tr>
+      <tr>
+        <td>Tiago Fernandes</td>
+        <td>M</td>
+        <td>26</td>
+        <td>Desenvolvedor</td>
+      </tr>
+      <tr>
+        <td>Tereza Martins</td>
+        <td>f</td>
+        <td>36</td>
+        <td>Diarista</td>
+      </tr>
+      <tr>
+        <td>Roberto Gomes</td>
+        <td>M</td>
+        <td>57</td>
+        <td>Motorista</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</body>
+</html>
